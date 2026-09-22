@@ -52,6 +52,85 @@ The notebook works through a structured set of questions:
 - Percentage of orders with total delivery time exceeding 60 minutes
 - Weekday vs. weekend delivery time comparison
 
+## Plots
+
+A selection of the visualizations generated in the notebook:
+
+<table>
+<tr>
+<td width="50%">
+
+**Orders by cuisine type**
+American, Japanese, and Italian dominate order volume.
+
+<img src="images/cuisine_type_distribution.png" alt="Order count by cuisine type" width="100%">
+
+</td>
+<td width="50%">
+
+**Orders: weekday vs. weekend**
+Weekend order volume is notably higher.
+
+<img src="images/orders_weekday_vs_weekend.png" alt="Order count by day of week" width="100%">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Order cost distribution**
+Right-skewed, with most orders between $12–$22.
+
+<img src="images/cost_distribution.png" alt="Distribution of order cost" width="100%">
+
+</td>
+<td width="50%">
+
+**Rating distribution**
+A large share of orders are unrated; among rated orders, 5-star is most common.
+
+<img src="images/rating_distribution.png" alt="Distribution of ratings" width="100%">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Cuisine demand by day of week**
+Weekend demand spikes across most cuisines, especially American and Japanese.
+
+<img src="images/cuisine_by_day.png" alt="Cuisine type counts split by weekday/weekend" width="100%">
+
+</td>
+<td width="50%">
+
+**Average rating by cuisine (colored by cost)**
+Spanish, Thai, and Indian cuisines show the highest customer satisfaction.
+
+<img src="images/rating_by_cuisine.png" alt="Average rating by cuisine type" width="100%">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Cost vs. rating relationship by cuisine**
+Higher-cost cuisines (French, Thai, Spanish) tend to score higher ratings.
+
+<img src="images/cost_vs_rating_by_cuisine.png" alt="Average cost by cuisine colored by rating" width="100%">
+
+</td>
+<td width="50%">
+
+**Correlation heatmap**
+No strong linear relationship between cost, rating, and total order time.
+
+<img src="images/correlation_heatmap.png" alt="Correlation heatmap of cost, rating, and total time" width="100%">
+
+</td>
+</tr>
+</table>
+
 ## Key Findings
 
 - Weekend order volume is significantly higher than weekday volume.
